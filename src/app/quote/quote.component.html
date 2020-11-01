@@ -7,7 +7,7 @@
                 <li style="margin-left: 50px;padding-bottom: 75px;">{{quote.quote}} due on {{quote.completeDate|date}}</li>
                 <button (click)='toggleDetails(i)' class="btn btn-outline-success">Details</button>
                 
-                <app-quote-details 'quote.showDescription' [quote]='quote' (isComplete)='deleteQuote($event,i)'>
+                <app-quote-details *ngIf='quote.showDescription' [quote]='quote' (isComplete)='deleteQuote($event,i)'>
                 </app-quote-details></div>
             </div>
             
