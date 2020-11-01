@@ -8,7 +8,7 @@ import { Quote } from '../quote';
 })
 export class QuoteComponent implements OnInit {
   quote: Quote[] = [
-    new Quote(1, 'Education is the key to successs', 'Nelson mandela', 'Brendah', new Date(2020, 8, 14), 0, 0),
+    new Quote(1, 'Education is the key to successs', 'Nelson mandela', 'Brendah', new Date(2020,2,3), 0, 0),
     new Quote(2, 'Giving up is a birth of regrets', 'Grace', 'zilfa', new Date(2019, 9, 9), 0, 0),
     new Quote(3, 'Get new Phone Case', 'Diana has her birthday coming up soon', 'sisse', new Date(2022, 9, 12), 0, 0),
     new Quote(4, 'Get Dog Food', 'Pupper likes expensive snacks', 'diane', new Date(2019, 7, 18), 0, 0),
