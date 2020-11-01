@@ -1,7 +1,7 @@
-# AKAN-NAMES
+#   QUOTE
 
 ## Description
-The quote application will allow a user to create a new quote were people can view 
+The quote application will allow a user to create a new quote were people can view it make likes and or dislike and the they can choose to delete it
 ### AUTHOR'S INFORMATION
 
 [brendahuwitonze](https://github.com/brendahuwitonze)
