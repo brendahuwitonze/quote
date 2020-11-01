@@ -2,9 +2,9 @@
     <h1>BEST QUOTE</h1>
     <div class="row">
         <div class="col-md-6">
-            <div class="card" id="crd"*ngFor='let quote of quote;let i = index'>
+            <div class="card m-2" id="crd"*ngFor='let quote of quote;let i = index'>
                 <div class="card-title">
-                <li style="margin-left: 50px;padding-bottom: 75px;">{{quote.quote}} due on {{quote.completeDate|date}}</li>
+                <li style="margin-left: 50px;padding-bottom: 10px;">{{quote.quote}} due on {{quote.completeDate|date}}</li>
                 <button (click)='toggleDetails(i)' class="btn btn-outline-success">Details</button>
                 
                 <app-quote-details *ngIf='quote.showDescription' [quote]='quote' (isComplete)='deleteQuote($event,i)'>
