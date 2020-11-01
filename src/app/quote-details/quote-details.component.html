@@ -1,8 +1,7 @@
 <P> Author:{{quote.author}}</P>
 <p> publisher:{{quote.publisher}}</p>
-<button (click)='upvote()'>{{quote.upvote}} upvote</button>
-<button (click)='downvote()'>{{quote.downvote}} downvote</button>
-
-<button (click)= 'quoteDelete(true)'>delete</button>
+<button (click)='upvote()'class="btn btn-outline-warning">{{quote.upvote}} upvote</button>
+<button (click)='downvote()'class="btn btn-outline-info">{{quote.downvote}} downvote</button>
+<button (click)= 'quoteDelete(true)' class="btn btn-outline-danger">delete</button>
 
 
