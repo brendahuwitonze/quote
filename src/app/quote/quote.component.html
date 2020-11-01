@@ -1,12 +1,17 @@
 <div class="container">
-  <div class="row">
+    <h1>BEST QUOTE</h1>
+
+    <div class="row">
+        <div class="col-md-6">
+            <div'let quote of quote;let i=index'>
+                <li>{{quote.quote}} due on {{quote.completeDate|date}}</li>
+                <button (click)='toggleDetails(i)' class="btn btn-outline-success">Details</button>
+                <app-quote-details *ngIf='quote.showDescription' [quote]='quote' (isComplete)='deleteQuote($event,i)'>
+                </app-quote-details>
+        </div>
+    </div>
     <div class="col-md-6">
-<div *ngFor='let quote of quote;let i = index'>
-    <li>{{quote.quote}} due on {{quote.completeDate|date}}</li> 
-<button (click)='toggleDetails(i)'class="btn btn-outline-success">Details</button>
-<app-quote-details *ngIf='quote.showDescription' [quote]='quote' (isComplete)='deleteQuote($event,i)'></app-quote-details>
-</div>
-<app-quote-form (addQuote)="addNewQuote($event)"></app-quote-form>
-</div>
+        <app-quote-form (addQuote)="addNewQuote($event)"></app-quote-form>
+    </div>
 </div>
 </div>
