@@ -8,12 +8,12 @@ import { Quote } from '../quote';
 })
 export class QuoteComponent implements OnInit {
   quote: Quote[] = [
-    new Quote(1, 'Education is the key to successs', 'Nelson mandela', 'Brendah', new Date(2020,2,3), 0, 0),
-    new Quote(2, 'Giving up is a birth of regrets', 'Grace', 'zilfa', new Date(2019, 9, 9), 0, 0),
+    new Quote(1, 'Education is the key to successs', 'Nelson mandela', 'Brendah', new Date(2018,2,3), 0, 0),
+    new Quote(2, 'Giving up is a birth of regrets', 'Grace', 'zilfa', new Date(2019, 12, 9), 0, 0),
     new Quote(3, 'Get new Phone Case', 'Diana has her birthday coming up soon', 'sisse', new Date(2022, 9, 12), 0, 0),
-    new Quote(4, 'Get Dog Food', 'Pupper likes expensive snacks', 'diane', new Date(2019, 7, 18), 0, 0),
-    new Quote(5, 'Solve math homework', 'Damn Math', 'Thiery', new Date(2019, 5, 14), 0, 0),
-    new Quote(6, 'Plot my world domination plan', 'Cause I am an evil overlord', 'Uwase', new Date(2030, 5, 14), 0, 0),
+    new Quote(4, 'Get Dog Food', 'Pupper likes expensive snacks', 'diane', new Date(2015, 7, 6), 0, 0),
+    new Quote(5, 'Solve math homework', 'Damn Math', 'Thiery', new Date(2019, 9, 8), 0, 0),
+    new Quote(6, 'Plot my world domination plan', 'Cause I am an evil overlord', 'Uwase', new Date(2014, 5, 4), 0, 0),
   ];
   toggleDetails(index) {
     this.quote[index].showDescription = !this.quote[index].showDescription;
