@@ -22,7 +22,7 @@ It allows the user to delete a quote.
 * Angular, HTML, CSS, Bootstrap.
 
   ## here is the link 
-<!-- [QUOTE](https://brendahuwitonze.github.io/Akan-names/.) -->
+[QUOTE](https://brendahuwitonze.github.io/quote/.) 
 
 ## License
 
