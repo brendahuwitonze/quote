@@ -129,5 +129,8 @@
       }
     }
   },
-  "defaultProject": "quote"
+  "defaultProject": "quote",
+  "cli": {
+    "analytics": "3a4714f0-963e-41e9-94a7-f0da1ae0fa98"
+  }
 }
