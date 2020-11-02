@@ -8,9 +8,9 @@ import { Quote } from '../quote';
 })
 export class QuoteComponent implements OnInit {
   quote: Quote[] = [
-    new Quote(1, 'Education is the key to successs', 'Nelson mandela', 'Brendah', new Date(2018,2,3), 0, 0),
-    new Quote(2, 'Giving up is a birth of regrets', 'Grace', 'zilfa', new Date(2019, 12, 9), 0, 0),
-    new Quote(3, 'Get new Phone Case', 'Diana has her birthday coming up soon', 'sisse', new Date(2022, 9, 12), 0, 0),
+    new Quote(1, 'Education is the key to successs', 'Nelson mandela', 'Brendah', new Date(2020,8,3), 0, 0),
+    new Quote(2, 'Giving up is a birth of regrets', 'Deshauna Barber ', 'zilfa', new Date(2019, 12, 9), 0, 0),
+    new Quote(3, 'For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish, but have eternal life.”', 'Diana ', 'sisse', new Date(2018, 9, 12), 0, 0),
    
   ];
   toggleDetails(index) {
