@@ -19,7 +19,7 @@ It allows the user to delete a quote.
 
  ## Technologies Used
 
-* Angular, HTML, CSS, Bootstrap.
+* Angular, HTML, CSS, Bootstrap.javascript
 
   ## here is the link 
 [QUOTE](https://brendahuwitonze.github.io/quote/.) 
